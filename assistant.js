@@ -44,3 +44,5 @@ assistant.completeTask();
 assistant.reportMood();
 assistant.completeTask();
 assistant.reportMood();
+
+// Tested PersonalAssistant successfully using node.js in a Windows PowerShell terminal
