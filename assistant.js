@@ -19,6 +19,7 @@ PersonalAssistant.prototype.completeTask = function() {
         console.log(`${this.name} has no tasks to complete.`);
         return;
     }
+    // I would like to expand this function to allow for specific task completion in the future using index tracking and editing tasks as well as deleting specific tasks from the list
     const completedTask = this.tasks.shift(); // Removing the first task from the tasks array using shift and storing it in a variable called completedTask
     console.log(`${this.name} completed task: ${completedTask}`); // Logging the completed task variable to the console
 }
